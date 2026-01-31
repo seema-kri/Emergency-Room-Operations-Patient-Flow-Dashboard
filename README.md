@@ -62,14 +62,14 @@ It’s a perfect showcase for **data cleaning, modeling, visualization, and oper
 ---
 
 ## 🗂️ Repository Structure
-Emergency-Room-Operations-Patient-Flow-Dashboard/
+[Emergency-Room-Operations-Patient-Flow-Dashboard](./)/
 │
-├── SQL Query.sql # SQL script to clean & preprocess hospital data
-├── Dashboard.xlsx # Interactive Excel Dashboard workbook
-├── Hospital ER_Data - Raw Data.csv # Raw ER dataset
-├── Dashboard.png # Dashboard screenshot
-├── LICENSE # MIT License
-└── README.md # Project documentation
+├── [SQL Query.sql](./SQL%20Query.sql) # SQL script to clean & preprocess hospital data
+├── [Dashboard.xlsx](./Dashboard.xlsx) # Interactive Excel Dashboard workbook
+├── [Hospital ER_Data - Raw Data.csv](./Hospital%20ER_Data%20-%20Raw%20Data.csv) # Raw ER dataset
+├── [Dashboard.png](./Dashboard.png) # Dashboard screenshot
+├── [LICENSE](./LICENSE) # MIT License
+└── [README.md](./README.md) # Project documentation
 
 ---
 
