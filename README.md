@@ -12,15 +12,18 @@
 
 ## 📊 Project Overview
 
-This project demonstrates **end-to-end hospital data analysis** to optimize **Emergency Room (ER) operations**. I designed an **interactive Excel dashboard** to help hospital management:
+This project is an **end-to-end healthcare data analytics** solution focused on analyzing Emergency Room (ER) operations. The goal is to help hospital stakeholders monitor **patient flow, wait times, service efficiency, and patient satisfaction** using **SQL for data processing** and **Excel for dashboarding**.
 
-- Monitor patient flow and wait times  
-- Track key operational KPIs  
-- Improve patient satisfaction through actionable insights  
-
-It’s a perfect showcase for **data cleaning, modeling, visualization, and operational analytics skills** — exactly what recruiters look for in a data analyst intern.  
+The project demonstrates the complete **data analytics lifecycle** — from raw CSV data ingestion and cleaning to KPI analysis and interactive dashboard creation.
 
 ---
+
+##🎯 Business Objectives
+
+-Monitor ER performance using clear, measurable KPIs
+-Identify delays and bottlenecks in patient flow
+-Analyze patient demographics and department referrals
+-Enable data-driven decisions for operational improvement
 
 ## 🎯 Key KPIs & Insights
 
