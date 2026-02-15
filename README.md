@@ -1,134 +1,104 @@
-# 🏥 Emergency Room Operations Dashboard – Data Analysis & Insights
+# 🏥 Emergency Room Operations Dashboard — Patient Flow & Wait Time Analytics
 
-[![SQL](https://img.shields.io/badge/SQL-Data%20Processing-orange)]()  
-[![Excel](https://img.shields.io/badge/Excel-PowerQuery%2C%20PowerPivot-green)]()  
-[![License](https://img.shields.io/badge/license-MIT-blue)]()
-
-**Project Type:** Healthcare Data Analytics & Interactive Dashboard  
-**Tools & Technologies:** SQL, Excel (Power Query, Power Pivot, DAX, Dashboard)  
-**Domain:** Hospital Operations / Emergency Room Analytics  
+## 🔷 Project Title & Headline
+Emergency Room Operations Dashboard built using SQL and Excel to analyze patient flow, wait times, service efficiency, and satisfaction metrics for hospital decision-making.
 
 ---
 
-## 📊 Project Overview
-
-This project is an **end-to-end healthcare data analytics** solution focused on analyzing Emergency Room (ER) operations. The goal is to help hospital stakeholders monitor **patient flow, wait times, service efficiency, and patient satisfaction** using **SQL for data processing** and **Excel for dashboarding**.
-
-The project demonstrates the complete **data analytics lifecycle** — from raw CSV data ingestion and cleaning to KPI analysis and interactive dashboard creation.
+## 📝 Short Description
+This project is an end-to-end healthcare data analytics dashboard focused on Emergency Room operations. Raw ER data was cleaned using SQL and modeled in Excel to track KPIs like patient volume, wait time, admissions, and satisfaction. The dashboard helps stakeholders quickly detect bottlenecks and improve operational efficiency.
 
 ---
 
-##🎯 Business Objectives
-
--Monitor ER performance using clear, measurable KPIs
--Identify delays and bottlenecks in patient flow
--Analyze patient demographics and department referrals
--Enable data-driven decisions for operational improvement
-
-## 🎯 Key KPIs & Insights
-
-| KPI | Description |
-|-----|-------------|
-| **Total Patients** | Number of ER visits in a specific period |
-| **Average Wait Time** | Average patient waiting time before seeing a doctor |
-| **Patient Satisfaction Score** | Daily patient satisfaction ratings |
-
-**Analytical Deep-Dives:**  
-- **Daily Trends:** Peak hours, weekly & seasonal patterns (Area Charts)  
-- **Patient Demographics:** Age Group (10-year brackets) & Gender distribution  
-- **Admission Status:** Admitted vs Not Admitted  
-- **Timeliness:** Patients attended within 30 minutes  
-- **Department Referrals:** Departments referring most patients to ER  
-
-**Key Insights:**  
-- Identified busiest days to optimize staffing  
-- Highlighted delays >30 minutes in specific departments  
-- Enabled interactive drill-down by **Year, Month, and Department**  
+## 🛠 Tech Stack
+- SQL  
+- Microsoft Excel  
+- Power Query  
+- Power Pivot  
+- DAX  
+- Interactive Excel Dashboard  
 
 ---
 
-## 🛠️ Technical Stack & Skills Demonstrated
-
-- **SQL:** Extract, clean, deduplicate, and transform raw hospital data  
-- **Excel (Power Query):** Merge datasets, build **custom Calendar Table**  
-- **Excel (Power Pivot & DAX):**  
-  - Age Grouping, Wait Time Categorization  
-  - Advanced KPI calculations  
-- **Excel Dashboard:** Interactive charts, slicers, drill-down navigation  
-
-**Skills Highlighted:**  
-- Data cleaning & preprocessing  
-- Time-series and demographic analysis  
-- KPI definition and visualization  
-- Interactive dashboard creation for decision-making  
+## 📂 Data Source
+Emergency Room patient dataset stored in CSV format. Raw hospital ER records were imported, cleaned, and transformed using SQL queries, then modeled and visualized in Excel using Power Query and Power Pivot.
 
 ---
 
-## 🗂️ Repository Structure
+## ✨ Features & Highlights
 
-[Emergency-Room-Operations-Patient-Flow-Dashboard](./)
-
-[SQL Query.sql](./SQL%20Query.sql) – SQL script to clean & preprocess hospital data  
-[Dashboard.xlsx](./Dashboard.xlsx) – Interactive Excel Dashboard workbook  
-[Hospital ER_Data - Raw Data.csv](./Hospital%20ER_Data%20-%20Raw%20Data.csv) – Raw ER dataset  
-[Dashboard.png](./Dashboard.png) – Dashboard screenshot  
-[LICENSE](./LICENSE) – MIT License  
-[README.md](./README.md) – Project documentation
+### 📌 Business Problem
+Hospitals often struggle to monitor ER performance in real time. Long wait times, uneven patient flow, and department bottlenecks reduce service quality and patient satisfaction. There is a need for a KPI-driven dashboard to monitor ER efficiency.
 
 ---
 
-## 🔄 Data Pipeline
-
-**1️⃣ SQL Processing**  
-- Removed duplicates & handled nulls  
-- Standardized gender & admission status  
-- Pre-calculated age groups & wait time statuses  
-
-**2️⃣ Excel Modeling**  
-- Built continuous Calendar Table for time-series accuracy  
-- Defined relationships between Calendar Table & hospital dataset  
-- Applied DAX formulas for age brackets & wait status  
-
-**3️⃣ Dashboard Visualization**  
-- Slicers for **Month / Year / Department**  
-- Area charts for daily patient trends  
-- Pie & bar charts for demographics & admissions  
-- KPI summary overview  
+### 🎯 Dashboard Goal
+- Track total ER patient visits  
+- Measure average wait time  
+- Monitor admission vs non-admission rates  
+- Analyze patient demographics  
+- Detect peak load days and hours  
+- Support staffing and process improvement decisions  
 
 ---
 
-## 🏁 How to Use
+### 📈 Key Visuals Used (and Why)
 
-1. Run SQL script `SQL Query.sql` for data preprocessing  
-2. Open the Excel dashboard `Dashboard.xlsx`  
-3. Use slicers & navigation buttons to explore KPIs & trends  
-
----
-
-## 💡 Impact & Value Delivered
-
-- Streamlined **patient flow monitoring** in ER  
-- Identified bottlenecks to **reduce wait times**  
-- Provided **actionable insights** for staffing & patient satisfaction  
-- Demonstrated **end-to-end data analytics skills** for healthcare operations  
+- **KPI Cards** — show total patients, avg wait time, satisfaction score for quick executive overview  
+- **Area Charts** — used for daily patient trends to clearly spot peaks and seasonality  
+- **Bar Charts** — compare department referrals and admission status  
+- **Pie Charts** — show gender and admission distribution simply  
+- **Age Group Charts** — visualize demographic spread using 10-year buckets  
+- **Slicers (Month / Year / Department)** — enable interactive drill-down analysis  
 
 ---
 
-## 📌 Future Enhancements
+### 📊 Business Impact & Insights
 
-- Integrate **real-time ER data feeds**  
-- Predict patient volumes using **machine learning**  
-- Include **financial and resource utilization metrics**  
-
----
-
-## 📸 Dashboard Preview
-
-![Dashboard Overview](Dashboard.png)  
-*Figure 1: Interactive ER Dashboard Overview*  
+- Identified peak ER load days to support staffing optimization  
+- Detected departments causing longer wait times  
+- Measured % of patients attended within 30 minutes  
+- Highlighted demographic patterns in ER visits  
+- Enabled faster operational monitoring using one dashboard  
+- Supports data-driven hospital workflow improvement  
 
 ---
 
-## 📝 Portfolio Summary
+## 🔄 Data Processing Workflow
 
->  Hospital ER Dashboard using SQL and Excel. Cleaned, modeled, and analyzed patient data to track **wait times, admissions, and satisfaction**. Built an **interactive dashboard** providing actionable insights for hospital operations and patient flow optimization.
+### SQL Processing
+- Removed duplicates  
+- Handled missing values  
+- Standardized gender & admission fields  
+- Created age groups and wait-time status columns  
+
+### Excel Modeling
+- Built calendar table for time analysis  
+- Created relationships in Power Pivot  
+- Developed DAX KPIs and calculated fields  
+
+### Dashboard Layer
+- Interactive slicers  
+- Multi-chart layout  
+- KPI summary section  
+
+---
+
+## 📁 Repository Files
+
+- `query.sql` — Data cleaning & preprocessing queries  
+- `Dashboard.xlsx` — Interactive Excel dashboard  
+- `Hospital_ER_Data - Raw Data.csv` — Raw dataset  
+- `Dashboard.png` — Dashboard screenshot  
+- `Hospital_ER_Analytics_Report.pdf` — Analysis report  
+
+---
+
+## 🖼 Visual Demo
+
+![ER Dashboard Preview](Dashboard.png)
+
+---
+
+## ⭐ Project Value
+This project demonstrates real-world healthcare analytics, SQL data cleaning, KPI modeling, and interactive dashboard design — showcasing practical data analyst skills suitable for internships and entry-level analyst roles.
